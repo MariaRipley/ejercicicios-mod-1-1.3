@@ -1,0 +1,58 @@
+body {
+  max-width: 600px;
+}
+
+.header {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.mi-blog {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.menu-header {
+  display: flex;
+}
+
+.menu-header-lista {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  align-items: center;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-footer-lista {
+  display: flex;
+}
