@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 960px;
+  height: 100vh;
+}
+
+.contenedor {
+  display: flex;
+  min-height: 80%;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.h3 {
+  padding-top: 5px;
+}
+
+.header {
+  background-color: tomato;
+  min-width: 100%;
+  min-height: 10%;
+}
+
+.aside-1 {
+  background-color: gold;
+  min-width: 10%;
+}
+
+.main {
+  background-color: lightskyblue;
+  min-width: 80%;
+  padding: 20px;
+}
+
+.aside-2 {
+  background-color: hotpink;
+  min-width: 10%;
+}
+
+.footer {
+  background-color: mediumspringgreen;
+  min-width: 100%;
+  min-height: 10%;
+}

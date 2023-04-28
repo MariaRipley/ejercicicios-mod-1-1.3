@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.header {
+  background-color: lightpink;
+  min-height: 10%;
+}
+
+.main {
+  background-color: lightcyan;
+  min-height: 80%;
+}
+
+.footer {
+  background-color: lightgreen;
+  min-height: 10%;
+}
